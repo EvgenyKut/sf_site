@@ -1,0 +1,49 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.trailingComma": "all",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "eslint.validate": ["javascript"],
+  "cSpell.language": "en,ru",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": [
+    "accum",
+    "deelay",
+    "nocontent",
+    "stylelint",
+    "Swiper",
+    "testid"
+  ],
+  "eslint.run": "onSave",
+  "eslint.workingDirectories": [],
+  "files.autoSave": "onFocusChange",
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.disabledAutoIndent": ["**/config/storybook/webpack.config.ts"],
+  "prettier.singleQuote": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "stylelint.config": null,
+  "stylelint.stylelintPath": ".stylelintrc.json",
+  "stylelint.snippet": ["css", "less", "postcss", "scss"],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss"],
+  "window.zoomLevel": 1
+}
