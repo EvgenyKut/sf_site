@@ -1,11 +1,5 @@
 # Welcome to SF_SITE
 
-где располагается репозиторий с кодом, как посмотреть существующий код;
-как устроен процесс внесения своих изменений в основную кодовую базу;
-каковы правила именования веток;
-как настроить свою среду разработки, требуется прикрепить ссылку на лежащий в проекте конфиг;
-инструкция для младших сотрудников по слиянию веток, какие команды надо выполнить, чтобы:
-
 ## Description
 
 🚀copy project /--/ git@github.com:EvgenyKut/image-search-application.git
@@ -50,21 +44,21 @@ Type and select Preferences: Open Settings (JSON).
 
 ## 📌 GIT-Helper
 
-# Creating Your Branch:
+### Creating Your Branch:
 
-git checkout -b feature/my-feature
+- git checkout -b feature/my-feature
 
-# Making Changes in Your Branch:
+### Making Changes in Your Branch:
 
-git add .
-git commit -m "Description of your changes"
+- git add .
+- git commit -m "Description of your changes"
 
-# Merging Changes with the Main Codebase:
+### Merging Changes with the Main Codebase:
 
-git checkout main
-git pull origin main
-git checkout feature/my-feature
-git merge main
-git add .
-git commit -m "Merge changes from main into feature/my-feature"
-git push origin feature/my-feature
+- git checkout main
+- git pull origin main
+- git checkout feature/my-feature
+- git merge main
+- git add .
+- git commit -m "Merge changes from main into feature/my-feature"
+- git push origin feature/my-feature
