@@ -53,7 +53,7 @@ git checkout -b feature/my-feature
 git add .
 git commit -m "Description of your changes"
 
-### Merging Changes with the Main Codebase:
+# Merging Changes with the Main Codebase:
 
 git checkout main
 git pull origin main
