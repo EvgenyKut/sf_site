@@ -46,19 +46,19 @@ Type and select Preferences: Open Settings (JSON).
 
 ### Creating Your Branch:
 
-git checkout -b feature/my-feature
+- git checkout -b feature/my-feature
 
 ### Making Changes in Your Branch:
 
-git add .
-git commit -m "Description of your changes"
+- git add .
+- git commit -m "Description of your changes"
 
 ### Merging Changes with the Main Codebase:
 
-git checkout main
-git pull origin main
-git checkout feature/my-feature
-git merge main
-git add .
-git commit -m "Merge changes from main into feature/my-feature"
-git push origin feature/my-feature
+- git checkout main
+- git pull origin main
+- git checkout feature/my-feature
+- git merge main
+- git add .
+- git commit -m "Merge changes from main into feature/my-feature"
+- git push origin feature/my-feature
