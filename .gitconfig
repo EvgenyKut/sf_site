@@ -1,0 +1,8 @@
+[user]
+    name = Evgeny Kutovoy
+    email = evgeni-kutovo@yandex.ru
+
+[core]
+    editor = vscode
+[alias]
+    history = log --graph
